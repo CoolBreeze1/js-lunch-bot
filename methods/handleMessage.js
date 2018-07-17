@@ -4,11 +4,11 @@ let removeUserFromArray = require('./removeUserFromArray');
 let helperFunction = require('./helperFunction');
 let createGroups = require('./createGroups');
 let displayGroups = require('./displayGroups');
-
+let date = require('date-and-time');
 let botIsActive = false;
 
-module.exports = {
 
+module.exports = {
 
   handleMessage: function(message, user, bot, totalLunchers, groups, displayGroupsToUsers){
   //Command to start the bot
@@ -46,7 +46,7 @@ module.exports = {
 
       bot.postMessageToChannel(
         'general',
-        "Hey <!channel>! Here are the groups - " + displayGroupsToUsers,
+        "Hey <!channel>! We have now stopping and creating groups for lunch!  Here are the groups - " + displayGroupsToUsers,
         params
       );
     }
