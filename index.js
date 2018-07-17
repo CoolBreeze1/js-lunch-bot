@@ -5,13 +5,13 @@ const axios = require('axios');
 
 
 const bot = new SlackBot({
-  token: 'xoxb-393063810322-394335033841-BDraRTadCk6BLMExRNVCa4HP',
+  token: '',
   name: 'lunch-bot'
 });
 
   let totalLunchers = ["sam1","sam2","sam3","sam4","sam5","sam6","sam7","sam8","sam9","sam10","sam11","sam12","sam13","sam14","sam15"];
   let groups = [];
-  
+
   let displayGroupsToUsers = [' '];
 //Start Handler
 bot.on('start', () => {
