@@ -1,4 +1,3 @@
-
 module.exports = {
 
   addUserToArray: function(user, totalLunchers){

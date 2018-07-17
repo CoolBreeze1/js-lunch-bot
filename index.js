@@ -1,12 +1,11 @@
 const SlackBot = require('slackbots');
 const axios = require('axios');
-let date = require('date-and-time');
 let handleMessage = require('./methods/handleMessage');
 
 
 
 const bot = new SlackBot({
-  token: '',
+  token: 'BOT-TOKEN-GOES-HERE',
   name: 'lunch-bot'
 });
 
@@ -20,7 +19,6 @@ bot.on('start', () => {
   console.log("-----------------------------------------------------------------");
   console.log("bot is online....");
   console.log("-----------------------------------------------------------------");
-
 });
 
 // Error Handler

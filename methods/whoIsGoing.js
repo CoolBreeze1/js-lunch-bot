@@ -1,5 +1,3 @@
-
-
 module.exports = {
 
   whoIsGoing: function(bot){

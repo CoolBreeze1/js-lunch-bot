@@ -25,6 +25,8 @@ describe('SmallestGroup', function(){
   });
 });
 
+
+// In process of getting this test to pass
 describe('Shuffle', function(){
 
   it('Shuffle should randomly move array items by their index', function(){
@@ -34,16 +36,5 @@ describe('Shuffle', function(){
   });
 });
 
-// describe('Testing', function(){
-//
-//   it('sayHello should return hello', function(){
-//     let result = sayHello();
-//     assert.equal(result, 'hello');
-//   });
-//
-//   it('sayHello should return type string', function(){
-//     let result = sayHello();
-//     assert.typeOf(result, 'string');
-//   });
-//
-// });
+
+// In process of writing more tests
