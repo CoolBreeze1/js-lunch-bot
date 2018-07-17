@@ -5,7 +5,7 @@ let handleMessage = require('./methods/handleMessage');
 
 
 const bot = new SlackBot({
-  token: 'xoxb-393063810322-394335033841-BDraRTadCk6BLMExRNVCa4HP',
+  token: '',
   name: 'lunch-bot'
 });
 
